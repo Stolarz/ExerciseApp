@@ -19,7 +19,7 @@ public class ButtonFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_button, container, false);
-
+/*
         view.findViewById(R.id.example_fragment_button).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -31,7 +31,7 @@ public class ButtonFragment extends Fragment {
 
                 builder.create().show();
             }
-        });
+        });*/
         return  view;
 
 
